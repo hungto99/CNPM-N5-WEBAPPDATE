@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="D:\gtav\New folder\bootstrap-4.3.1-dist\css\bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="D:\APPDATE\index.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<script language="javascript" src="D:\APPDATE\index2.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+		<title>Date app</title>
+	</head>
+	<body>
+		<div class="container-fluid wapper">
+			<div class="row row-no-gutters">
+				<div class="col-lg-3 col-margin">
+					<div class="header_theme gradient">
+						<a class="header_linkprolife" href="https://www.w3schools.com/bootstrap/tryit.asp?filename=trybs_ref_img-circle&stacked=h">
+							<img  src="https://scontent.fhan2-1.fna.fbcdn.net/v/t1.0-1/p240x240/31120846_979420138882723_1100020581400576000_n.jpg?_nc_cat=106&_nc_oc=AQl86_0-0u5rct1wkv2KAMMKG75ucYwcq0DkXPXS9WDN6D-Cr4m4dm3HKXIkxHiFEUs&_nc_ht=scontent.fhan2-1.fna&oh=253329912839bcdb0824c47a6589c337&oe=5CE756D9" class="img-circle img-circle--border " width="50" height="50">
+							<div class="header_inforlink">Thông tin của tôi</div>
+						</a>
+					</div>
+					<div class="sidebar">
+						<div class="miniprolife header_theme header_theme--blue  gtadient--violet">
+							<h2 class="Aboutme">  About me</h2>
+							<hr class="hr--big">
+						</div>
+					</div>
+					<div class="friendandmess">
+						<div class="tab">
+							<button  class="tab_friend tabbutton tablin--margin btn btn-info tab--active" onclick="openCity(event, 'Bạn bè')">Bạn bè</button>
+							<button  class="tab_mess tabbutton btn btn-info" onclick="openCity(event, 'Tin nhắn')">Tin nhắn</button>
+						</div>
+						<div id="Bạn bè" class="friendcontent tablink">
+							<span>
+							 	<div class="article">
+							 		<button class="thumb" style="background-image: url(https://scontent.fhan2-3.fna.fbcdn.net/v/t1.0-9/47395223_2244851695838058_4725696672624017408_n.jpg?_nc_cat=108&_nc_oc=AQmetUcJ30S_sLQp2uf9jjT11ykMpiRqJpgEV_12HUt8yyZZxh1HrswWOwqDyEto7KA&_nc_ht=scontent.fhan2-3.fna&oh=e4cb203fcd407dc135ad806095950883&oe=5CEAB720);" onclick="changeprolife(event)">
+							 		</button>
+							 	</div>
+							</span>
+							<span>
+							 	<div class="article">
+							 		<div class="thumb" style="background-image: url(https://scontent.fhan2-4.fna.fbcdn.net/v/t1.0-9/48427519_1283319648476006_3877294220523864064_n.jpg?_nc_cat=105&_nc_oc=AQnFryz9O85tX1Yx1TxedLBdBPX2HB46-23DHAdnptUvsZOvTDrbIvvN6lPds-G3J7E&_nc_ht=scontent.fhan2-4.fna&oh=f741b44600b4d914318d91bdb1f25341&oe=5CDF0969);" onclick="changeprolife(event)" >
+							 		</div>
+							 	</div>
+							</span>
+							<span">
+							 	<div class="article">
+							 		<div class="thumb" style="background-image: url(https://scontent.fhan2-2.fna.fbcdn.net/v/t1.0-9/20604419_1073900152741643_3044106227571399822_n.jpg?_nc_cat=111&_nc_oc=AQmFBg09SEULlf5h-VD7V0QRxTHA9yhYuVkpNvS_xSYVa8L4LlVgg1iiNXDHhL-iVx8&_nc_ht=scontent.fhan2-2.fna&oh=57bd0ca4877d956f8fc24e1b92eec40a&oe=5D22E148);" onclick="changeprolife(event)">
+							 		</div>
+							 	</div>
+							</span>
+							<a href="https://www.facebook.com/mon.le.2000">
+							 	<div class="article">
+							 		<div class="thumb" style="background-image: url(https://scontent.fhan2-3.fna.fbcdn.net/v/t1.0-9/51366904_1918601784928743_5469954530097496064_n.jpg?_nc_cat=108&_nc_oc=AQl45w1M7njBSXmATy2K8tpi7VxrNl-2n8R6quU1lcJPdFveZrzG85dYbWocx-2pMO4&_nc_ht=scontent.fhan2-3.fna&oh=373afb21ced1197f635b602ffd10543f&oe=5D136B7C);" onclick="changeprolife(event)">
+							 		</div>
+							 	</div>
+							</a>
+							<a href= "https://www.facebook.com/daylaca">
+							 	<div class="article">
+							 		<div class="thumb" style="background-image: url(https://scontent.fhan2-2.fna.fbcdn.net/v/t1.0-9/37488418_1075757432574220_4417448527647473664_o.jpg?_nc_cat=111&_nc_oc=AQmhlhWJX9VSb7j2LYnTWiPTS8OKG-W2PCdz5b3iZZjzn5g0xmRF6R5an4e3D2EEcso&_nc_ht=scontent.fhan2-2.fna&oh=88550d50fe5d8a0a76535abdfb611e1d&oe=5D28C61C);" onclick="changeprolife(event)">
+							 		</div>
+							 	</div>
+							</a>
+							<a href= "https://www.facebook.com/momo.hoa.9">
+							 	<div class="article">
+							 		<div class="thumb" style="background-image: url(https://scontent.fhan2-3.fna.fbcdn.net/v/t1.0-9/44049467_274749236714272_1093528480634634240_n.jpg?_nc_cat=107&_nc_oc=AQl9SfuSuYV082TZXLY54oW9VmV5ufF-pLzBwTOUPaGZGxJ_CUnjkBq6ejEYoZoGl-w&_nc_ht=scontent.fhan2-3.fna&oh=5667530c4c8540045aa880ab5def0502&oe=5D17C415);" onclick="changeprolife(event)">
+							 		</div>
+							 	</div>
+							</a>
+						</div>
+						<div id="Tin nhắn" class="messlist tablink">
+							xin chào
+
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-6 col-margin">
+					<div class="head_chatbar">
+						<div class="chatbar_info">
+							<div class="nameandlove">
+								<div class="header_linkprolife">
+									<img id="avatarprolife" src="https://scontent.fhan2-1.fna.fbcdn.net/v/t1.0-1/p240x240/31120846_979420138882723_1100020581400576000_n.jpg?_nc_cat=106&_nc_oc=AQl86_0-0u5rct1wkv2KAMMKG75ucYwcq0DkXPXS9WDN6D-Cr4m4dm3HKXIkxHiFEUs&_nc_ht=scontent.fhan2-1.fna&oh=253329912839bcdb0824c47a6589c337&oe=5CE756D9" class="img-circle img-circle--border img-circle--shadow" width="50" height="50">
+								<div class="header_inforlink header_inforlink--chatbar">Đã kết bạn vào ngày 32/12/2019</div>
+								
+								</div>
+
+								<div><button class="fa fa-heart fa-heart--mod fa-3x btn"></button></div>
+								<div><button class="fa fa-map-marker fa-3x btn fa-map-marker--mod"></button></div>
+							</div>
+							<div class="timecountdown font1--mod">
+								<p> Thời gian còn lại để nói chuyện: </p>
+								<button class="btn btn--countdown btn-primary ">Check in</button>
+							</div>
+						</div>
+					<div class="timetoend font1--mod">
+						<p>Thời gian để kể thúc còn:</p>
+						<button class="btn btn--countdownend ">End</button>
+					</div>
+				</div>
+			</div>
+				<div class="col-lg-3 col-margin">
+					<p class="header_theme header_theme--blue"> App 3</p>
+				</div>
+				</div>
+			</div>
+		</div>	
+	</body>
+</html>
